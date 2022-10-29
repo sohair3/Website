@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&family=Dancing+Script:wght@500&family=Fredoka:wght@300;400&family=Indie+Flower&family=Lobster&family=Macondo&family=Mali:ital,wght@0,200;0,400;1,300&family=Montserrat:wght@200;400&family=Ms+Madi&family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Pacifico&family=Playfair+Display:ital@0;1&family=Poppins:ital,wght@0,200;1,200&family=Redressed&family=Roboto:ital,wght@0,100;0,300;1,300&family=Sansita+Swashed:wght@300&family=Source+Code+Pro:ital,wght@1,300&family=Source+Sans+Pro:ital,wght@0,200;0,400;1,300;1,400&family=Tangerine:wght@400;700&family=Varela&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    scroll-behavior: smooth;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #EEE;
+}
+ul li {
+    list-style: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+
+}
+.sidebar{
+    height: 100vh !important;
+    position: relative;
+    position: fixed;
+    top: 0;
+}
+.hidden{
+    margin-left: -15rem;
+}
+.first-item ul li {
+    margin-left: -7rem;
+}
+.first-item{
+    background-color: #000000;
+    width: 15vw;
+    /* height: 100vh; */
+    z-index: 6545;
+
+ 
+    
+}
+.first-item i {
+    color: white;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+.second-item .content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+    background-color: #232121;
+    position: fixed;
+    height: 100vh !important;
+    width: 7vw;
+    z-index: 6545;
+}
+.content i {
+    font-size: 1.5rem;
+    color: white;
+}
+.item1{
+    opacity: 0;
+}
+.copy-right{
+    font-family: 'Nunito', sans-serif;
+
+}
+.data{
+    
+    width: 75vw;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 19rem;
+    
+}
+.data img{
+    border-radius: 5px;
+}
+.layer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 12px;
+    width: 250px;
+    background-color: red;
+    opacity: 0;
+    
+}
+.overlay {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    border-radius: 5px;
+    left: 2px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .9s ease;
+    background: rgba(0.5, 0.7, 0.5, 0.8);
+  }
+.over-img:hover .overlay{
+    opacity: 1;
+    top: 0;
+}
+.search-bar{
+    height: 15vh;
+}
+.searchdata{
+    position: relative;
+    outline: none;
+    border: none;
+    display: inline;
+    border-right: 2px solid red;
+    bottom: -2rem;
+    height: 3rem;
+    width: 100% !important;
+}
+input:last-of-type{
+    border-right: none !important;
+}
+.returnData{
+    margin-left: 12rem;
+}
+.returnData img{
+    margin-left: -10px;
+}
+.cityName{
+    margin-left: -25px;
+    font-family: 'Nunito', sans-serif;
+}
+.area .col-md-6{
+    cursor: pointer;
+}
